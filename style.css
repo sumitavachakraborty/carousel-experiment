@@ -1,0 +1,25 @@
+.cards-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: green;
+    margin: 0 .5rem;
+    width: calc(100%/4);
+    padding: 20px;
+}
+.card-img-top{
+    height: 350px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    width: 10vh;
+    height: 10vh;
+    top: 50%;
+    background-color: green;
+}
+
+.carousel{
+    background-color: green;
+}
